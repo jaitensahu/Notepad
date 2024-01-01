@@ -1,0 +1,12 @@
+textarea{
+    height: 95%;
+    width: 100%;
+    max-width: 1320px;
+    /* max-width: 90vw; */
+    max-height: 95vh;
+    background-color: #F4EBD0;
+    /* background-image: url("https://i.pinimg.com/564x/8a/52/70/8a5270e2c87271018d32b8093108a8fa.jpg"); */
+    background-size: cover;
+    font-size: 20px;
+    padding: 10px;
+}

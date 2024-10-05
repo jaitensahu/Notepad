@@ -1,6 +1,10 @@
 # Markdown Notepad
 
 Welcome to the Markdown Notepad project! This is a simple React application that allows you to take notes with full Markdown functionality.
+![image](https://github.com/user-attachments/assets/8f7f4a56-0fd1-4cab-b210-809c7bddbb4f)
+![image](https://github.com/user-attachments/assets/effd4cea-c33f-4780-b78d-32dcbae8f59c)
+
+
 
 ## Table of Contents
 - [Features](#features)

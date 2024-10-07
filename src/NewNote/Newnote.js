@@ -57,7 +57,6 @@ const Newnote = (props) => {
       setbtnArr([...arr]);
     }
     
-    
     localStorage.setItem("data", JSON.stringify([...btnArr]));
   }
 
@@ -117,7 +116,7 @@ const Newnote = (props) => {
           {btnArr.map((btn, idx) => {
             return (
               <div className="btns" key={`unique_${idx}_${Math.random() * 10}`}>
-                <p className="Btn" onKeyDown={(e)=>chngeData(e)} contentEditable="true" onClick={() => { showClickedNote(idx); }}>
+                <p className="Btn" onKeyDown={(e)=>chngeData(e)} onBlur={(e) => chngeData(e)} contentEditable="true" onClick={() => { showClickedNote(idx); }}>
                   {btn.btn}
                 </p>
                 {/* <button >Delete</button> */}
